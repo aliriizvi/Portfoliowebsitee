@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Syed Ali Rizvi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/30da6b97cc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo2.jpeg" class="logo" >
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hello, I'm <span>Syed Ali Rizvi</span>, <br> From India</h1>
+            <h2>I am a</h2>
+            <p>Software Engineer</p>
+            <p>Web Developer</p>
+            <p>Photographer & Videographer</p>
+            <p>Actor & Model</p>
+
+            
+        </div>
+    </div>
+  </div>
+ 
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me ~</h1>
+                    <p>"I am Syed Ali Rizvi, a student of Engineering at SRM IST Delhi NCR, Pursuing Computer Science Engineering Specialization in Artificial Intelligence and Machine Learning . Throughout my college years, I've acquired a diverse set of programming languages and skills. Beyond academics, I have a strong passion for Event management, having organized various events in school, college, and private Events too, including MUNs, cultural events, and sports events. My current goal is to secure a promising placement opportunity. Thank you."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul><li><span>SOFTWARE ENGINEER</span> <br>Software & APP Developer</li>
+                        <li><span>WEB Developer</span><br>Website Developer</li>
+                        <li><span>Photographer&VIDEOGRAPHER</span><br>Photos&Video Recording</li>
+                        <li><span>ACTING AND MODELING</span><br>Actor</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                    <ul><li><span>2023-Current</span> <br>Software & APP Developer Trining at SRM Institute</li>
+                        <li><span>2022-Current</span><br>Website Making</li>
+                        <li><span>2020-Current</span><br>Photo Shoot & Video Shoot</li>
+                        <li><span>2023-Current</span><br>Leading Roles</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                    <ul><li><span>2023</span> <br>Software & APP Developer</li>
+                        <li><span>2021</span><br>Website Making</li>
+                        <li><span>2014</span><br>Photos&Video Recording</li>
+                        <li><span>2024</span><br>Actor</li>
+                    </ul>
+                 </div>
+            </div>
+            
+        </div>
+    </div>
+  </div> 
+  <div id="service">
+   <div class="container">
+    <h1 class="subtitle">My Services~</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Software Engineer</h2>
+            <p>Software engineers design, develop, test, and maintain software applications and systems. They solve technical problems, collaborate with teams, optimize code, and ensure performance, security, and scalability in diverse computing environments.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-web-awesome"></i>
+            <h2>Web Developer</h2>
+            <p>Web developers create and maintain websites and web applications. They design user interfaces, code functionality, ensure responsiveness, optimize performance, and integrate backend services to deliver seamless online experiences.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-photo-film"></i>
+            <h2>Photographer& <br>Videographer</h2>
+            <p>Photographers capture and edit images to tell stories or document moments, while videographers record and produce videos, managing footage, sound, and editing to create engaging visual content for various platforms.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-child-reaching"></i>
+            <h2>Acting & Modeling</h2>
+            <p>Actors perform roles in theater, film, or TV, interpreting scripts and bringing characters to life. Models pose for photographs or advertisements, showcasing fashion or products to highlight visual appeal and style.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+   </div>
+  </div>
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="images/1work.jpeg" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work2.jpeg" alt="">
+            <div class="layer">
+                <h3>Ecommerce Website</h3>
+                <p>The app connects you to the local retailers giving best prices of the various items.</p>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work3.jpeg" alt="">
+            <div class="layer">
+                <h3>Images & Videos</h3>
+                <p>Collections of images and videos.</p>
+                <a href="#"><i class="fa-solid fa-video"></i></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work4.jpeg" alt="">
+            <div class="layer">
+                <h3>Acting and Moeling Demos</h3>
+                <p>Collections of perivious work. </p>
+                <a href="#"><i class="fa-brands fa-google-drive"></i> </i></a>
+            </div>
+        </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>alirizvi786syed@email.com</p>
+            <p><i class="fa-solid fa-phone"></i>9415336251</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100006292099286"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Resume3local.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="NAME" placeholder="Your Name" required>
+                <input type="email" name="EMAIL" placeholder="Your Email" required>
+                <textarea name="MESSAGE" rows="6" placeholder="Your Message"></textarea>
+                <button type="Submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Syed Ali Rizvi . Made with<i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+    <script>
+     var tablinks = document.getElementsByClassNAme("tab-links");
+     var tabcontents = document.getElementsByClassNAme("tab-contents");
+     function opentab(tabname)
+     {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+  </script>
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyvNl0XTYRG_EFxUReBzdlPtbwtuKlKPkG7rhELA8DkKWtz4cs8JKUDikUJee037CMv/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
